@@ -1,4 +1,4 @@
-# Chess_Simulator
+# ♟️ Chess Simulator
 
 **not finished yet**
 
