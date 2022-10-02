@@ -37,28 +37,28 @@ def Pawn_move(ROW, ROWED):
             if ROWED == ROW + 2 or ROWED == ROW + 1:
                 first_move = False
             else:
-                print("Invalid move ไอควาย")
+                print("Invalid move")
                 Destination(starter_move)
         
         elif first_move == False :
             if ROWED == ROW + 1:
                 first_move = False
             else:
-                print("Invalid move ไอควาย")
+                print("Invalid move")
                 Destination(starter_move)
     else:
         if first_move == True :
             if ROWED == ROW - 2 or ROWED == ROW - 1:
                 first_move = False
             else:
-                print("Invalid move ไอควาย")
+                print("Invalid move")
                 Destination(starter_move)
         
         elif first_move == False :
             if ROWED == ROW - 1:
                 first_move = False
             else:
-                print("Invalid move ไอควาย")
+                print("Invalid move")
                 Destination(starter_move)
 
 def print_board():
